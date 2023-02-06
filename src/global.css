@@ -1,0 +1,35 @@
+:root {
+  --gray-100: #ebebeb;
+  --gray-200: #6b6b6b;
+  --gray-300: #2d2a37;
+  --purple-100: #867ece;
+  --purple-200: #975dfa;
+  --purple-300: #7f45e2;
+  --purple-400: #462878;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: var(--purple-100);
+  color: var(--gray-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body,
+input,
+button {
+  font-family: "Rubik", sans-serif;
+}
